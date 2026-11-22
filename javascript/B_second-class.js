@@ -251,3 +251,19 @@ if (Age >= 18) {
 } else {
     console.log("Not eligible to vote");
 }
+
+// Q > check a number even or add 
+
+let number = 7;
+
+if (number % 2 == 0){
+    console.log("Even number :", number);
+}
+else{
+    console.log("Odd number", number);
+}
+
+// TERNARY OPERATOR :- ====================================================
+// single line of code (conditional statemnet)
+let result =  Age >= 18 ? "adult" : "not adult ";
+console.log(result);
