@@ -1,9 +1,14 @@
-// COMMENTS 
+// COMMMENTS , OPERATOR AND CONDITIONAL STATEMNET :- 
+
+
+// COMMENTS ======================================================================================== 
+
 // Part of Code which is not executed
 
 // double slash to singlee line comment.
 /* is a multi line comment like > */ 
 
+// oprator :- ======================================================================================
 
 // Used to perform some operation on data.
 
@@ -184,9 +189,10 @@ console.log(marks > 90 || marks > 70);
 // True ko false aur false ko true karta hai.
 
 let isStudent = true;
-console.log(!isStudent);
+console.log(! isStudent);
 
-// (conditional statement :)
+// (conditional statement :) ============================================================================
+
 // To implement some condition in the code
 
 // if
@@ -238,7 +244,7 @@ if (num > 0) {
 
 // q4. check person to can vote or not >
 
-let Age = 17;
+let Age = 18;
 
 if (Age >= 18) {
     console.log("Eligible to vote");

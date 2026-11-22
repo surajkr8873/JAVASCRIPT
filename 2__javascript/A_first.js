@@ -1,3 +1,5 @@
+// VARIABLE AND DATATYPES :- ======================================================================
+
 // javascript >> js is a programming language. we use it to give instructions to the computer.
 // 
 // input(code) >> commputer >> output
@@ -7,7 +9,8 @@
 
 console.log("Suraj Kumar :");
 
-// variable in javascript;
+// variable in javascript; ==========================================================================
+
 // variables are containers for data.
 
 // Variable rules 
@@ -21,7 +24,8 @@ console.log("Suraj Kumar :");
 // let : Variable cannot be re-declared but can be updated. A block scope variable.
 // const : Variable cannot be re-declared or updated. A block scope variable.
 
-// datatypes in javascript;
+// datatypes in javascript; ========================================================================
+
 // Primitive Types : Number, String, Boolean, Undefined, Null, BigInt, Symbol
 
 // 1. String
@@ -84,3 +88,4 @@ const profile = {
     posts : 8,
 }
 console.log(profile);
+console.log(profile.Followers);
